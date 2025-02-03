@@ -3,9 +3,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('/ClashDisplay-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
 body{
-  background-image: linear-gradient(to right, #f8e1f1, #dccef7);
+  background-image: linear-gradient(to right, #e9e0e6, #eee8f9);
   min-height: 100vh;
+  min-width: 290px;
 }
 
 .wrapper{
