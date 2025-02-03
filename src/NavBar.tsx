@@ -10,8 +10,7 @@ export default function NavBar() {
         <img src="/logo.png" className="h-5 lg:h-7" alt="" />
         <img src="/logo1.svg" className="h-3 lg:h-4" alt="" />
       </div>
-      <div className={` fixed bg-gradient-to-b from-[#efc7e9] to-[#c7b3f6] z-500 ${opened ?"left-0 opacity-100" : "-left-[100vw] sm:opacity-100 opacity-0"} duration-500 text-sm md:text-[15px] lg:text-base top-14 flex-col px-7 py- h-[calc(100vh-56px)] w-full  border-gray-600 flex font-bold gap-7 lg:gap-10
-      
+      <div className={` fixed bg-gradient-to-b from-[#efc7e9] to-[#c7b3f6] z-500 ${opened ?"left-0 opacity-100" : "-left-[100vw] sm:opacity-100 opacity-0"} duration-500 text-sm md:text-[15px] lg:text-base top-14 flex-col px-7 py-5 h-[calc(100vh-56px)] w-full  border-gray-600 flex font-bold gap-7 lg:gap-10
       sm:static sm:h-auto sm:flex-row sm:from-transparent sm:to-transparent sm:top-auto sm:left-auto sm:w-auto sm:bg-transparent sm:py-0 sm:px-0
       `}>
         {links.map((el) => (
