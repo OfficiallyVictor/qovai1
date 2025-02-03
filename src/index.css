@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+  background-image: linear-gradient(to right, #f8e1f1, #dccef7);
+  min-height: 100vh;
+}
+
+.wrapper{
+  @apply max-w-[1200px] mx-auto px-2 xl:px-0
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+
+}
+
+
