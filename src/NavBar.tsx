@@ -5,13 +5,13 @@ export default function NavBar() {
   const links = ["platform", "resource", "pricing", "7 Days Free Trial"];
   const [opened, setOpened] = useState(false);
   return (
-    <div style={{ fontFamily: "Clash-Display, sans-serif" }} className="h-14 lg:h-16 flex lg:relative lg:top-auto lg:w-auto lg:left-auto fixed w-full top-0 left-0 bg-gradient-to-t  lg:to-transparent lg:from-transparent from-[#efc7e9] to-[#c7b3f6] z-[5000] border-b border-gray-600 px-2 lg:px-0 lg:mx-10   justify-between items-center ">
+    <div style={{ fontFamily: "Clash-Display, sans-serif" }} className="h-14 lg:h-16 flex lg:relative lg:top-auto lg:w-auto lg:left-auto fixed w-full top-0 left-0 bg-gradient-to-t  lg:to-transparent lg:from-transparent from-[#e9e0e6] to-[#eee8f9] z-[5000] border-b border-gray-600 px-2 lg:px-0 lg:mx-10   justify-between items-center ">
       <div className="flex gap-2 items-center">
         <img src="/logo.png" className="h-5 lg:h-7" alt="" />
         <img src="/logo1.svg" className="h-3 lg:h-4" alt="" />
       </div>
       <div
-        className={` fixed bg-gradient-to-b from-[#efc7e9] to-[#c7b3f6] z-500 ${
+        className={` fixed bg-gradient-to-b from-[#e9e0e6] to-[#eee8f9] z-500 ${
           opened
             ? "left-0 opacity-100"
             : "-left-[100vw] sm:opacity-100 opacity-0"
